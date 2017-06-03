@@ -6,11 +6,11 @@
   margin-top: 0;
 }
 
-.enlacesMenu{
+.enlacesMenu, .logoBlanco{
 	text-decoration: none;
- 	padding: 13px;
+ 	padding: 4px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 22px;
 	color: white;
 }
 
