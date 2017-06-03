@@ -8,7 +8,10 @@
 
 .enlacesMenu{
 	text-decoration: none;
-	display: flex;
+ 	padding: 13px;
+	display: inline-block;
+	font-size: 20px;
+	color: white;
 }
 
 .img-responsive{
