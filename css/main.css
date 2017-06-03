@@ -1,3 +1,16 @@
-body{
-	font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
+
+.menu{
+  background-color: #333447;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.containerMenu{
+  display: flex;
+}
+
