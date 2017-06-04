@@ -44,10 +44,26 @@ a:hover {
 	border-color:  #ff00bf;
 }
 
+/*Efectos de la bajada del menú/
+
 /*color azul #333447*/
 
 /*Foto del Fondo*/
 .imgFondo{
 	max-width: 100%;
     width: 100%;
+}
+
+/*Footer*/
+.fotter{
+	background-color: #373b47;
+	height: 400px;
+}
+
+.titulos{
+  	color: white;
+	display: flex;
+	align-self: baseline;
+	padding: 20px 50px 50px 50px;
+	text-transform: uppercase;
 }
