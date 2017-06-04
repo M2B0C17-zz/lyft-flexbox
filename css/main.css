@@ -7,7 +7,7 @@ body {
 }
 
 .menu{
-	background-color: #333447;
+	background-color: rgba(225 255 255 0);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -37,4 +37,17 @@ a:hover {
 	border-radius: .25rem;
 	border-color: white;
 	margin-right: 50px;
+}
+
+/*Efecto al borde hover*/
+#enlaceLogIn:hover{
+	border-color:  #ff00bf;
+}
+
+/*color azul #333447*/
+
+/*Foto del Fondo*/
+.imgFondo{
+	max-width: 100%;
+    width: 100%;
 }
