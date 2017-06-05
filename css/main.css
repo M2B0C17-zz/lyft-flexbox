@@ -98,6 +98,35 @@ a:hover {
 	align-self: center;
 }
 
+/*Videos*/
+
+.containerVideo{
+	display: flex;
+	justify-content: space-between;
+}
+
+.textoVideo{
+	width: 400px;
+	height: auto;
+	padding: 0 0 0 70px;
+}
+
+.containerVideo2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.textoVideo2{
+	width: 400px;
+	height: auto;
+	padding: 0 70px 0 0;
+}
+
+.video, .video2{
+	width: 650px;
+	height: 400px;
+}
+
 /*Footer*/
 footer{
 	background-color: #373b47;
