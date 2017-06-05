@@ -6,8 +6,9 @@
 		//Condiciones para que se aplique
 		if(window.pageYOffset > altura){ // si la cantidad de scroll es mayor a la altura del inicio, se le aplique la clase fixed
 			menuScroll.classList.add("fixed");
+		}else {
+			menuScroll.classList.remove("fixed"); // para que cuando sea menor a la altura del inicio, se quite.
 		}
-
 	});
 	
 
