@@ -15,7 +15,7 @@ body {
 	height: 100px;
 	justify-content: flex-end;
 	align-items: center;
-	transition: all 1s ease-in-out;
+	transition: all .3s ease-in-out;
 }
 
 .logoBlanco{
@@ -47,8 +47,13 @@ a:hover {
 }
 
 /*Efectos de la bajada del menú - intento fallido*/
-.scroll{
-	background: white;
+.menuColor{ 
+	background-color:#fff; 
+	color: #ff00bf; /*no cambia el color del texto*/
+}
+
+.menuSinColors{ 
+	background-color:transparent;
 }
 
 /*color azul #333447*/
@@ -59,8 +64,42 @@ a:hover {
     width: 100%;
 }
 
+/*Inofrmacion 1*/
+.inform{
+    display: flex;
+    background: linear-gradient(#76278f, #2B1E66);
+    margin: 0;
+    color: white;
+}
+
+.containerInform{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.phone {
+    margin-right: 100px;
+    width: 500px;
+}
+
+.tit{
+    font-size: 25px;
+}
+
+.titP{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.imgPhone{
+	height: 550px;
+	width: auto;
+	display: flex;
+	align-self: center;
+}
+
 /*Footer*/
-.fotter{
+footer{
 	background-color: #373b47;
 	height: 400px;
 }
@@ -89,5 +128,44 @@ a:hover {
 }
 
 .fotStore{
+	width: 130px;
+	height: auto;
+	display: flex;
+	margin: 53px 0 0 0;
+}
 
+/*Parte de los iconos del Footer*/
+.iconos{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+	margin-left: 40px;
+}
+
+.icon{
+	justify-content: space-around;
+	color: white;
+	width: 5%;
+	font-size: 26px;
+	cursor:pointer;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.icon:hover{
+	color: #ff00bf;
+}
+
+hr{
+    height: 1px;
+    border: 0;
+    background-color: white;
+    width: 500px;
+}
+
+.textUltimo{
+	text-align: center;
+	color: white;
+	font-weight: 300;
+	font-size: 12px;
 }
